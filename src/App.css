@@ -1,0 +1,42 @@
+.App{
+  padding: 60px 0;
+}
+
+.App h4{
+  margin-bottom: 20px;
+}
+
+/* FORM STYLING */
+
+#searchtext{
+  display: inline-block;
+  width: calc(100% - 50px);
+  margin-right: 4px;
+}
+
+.search.btn{
+  width: 45px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.App .form-group{
+  max-width: 500px;
+}
+
+/* SEARCH CONTENT */
+.search-content ul{
+  padding: 0;
+}
+
+.search-content ul li{
+  list-style: none;
+}
+
+.search.btn.btn-secondary.disabled{
+  cursor: initial;
+}
+
+.filter{
+  margin-bottom: 20px;
+}
